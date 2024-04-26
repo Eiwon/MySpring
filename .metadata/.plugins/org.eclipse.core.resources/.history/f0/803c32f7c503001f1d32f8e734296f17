@@ -1,0 +1,5 @@
+package com.myTest.test.config;
+
+public class ServletConfig {
+
+}
