@@ -1,0 +1,16 @@
+package com.myTest.test;
+
+import org.springframework.test.context.ContextConfiguration;
+
+import com.myTest.test.config.WebConfig;
+
+import lombok.extern.log4j.Log4j;
+
+
+@ContextConfiguration(classes = {WebConfig.class})
+@Log4j
+public class DBTest {
+	private static final String URL = "jdbc:oracle:thin:@localhost:1521:xe";
+	private static final String USER = "scott";
+	private static final String PASSWORD = "tiger";
+}
