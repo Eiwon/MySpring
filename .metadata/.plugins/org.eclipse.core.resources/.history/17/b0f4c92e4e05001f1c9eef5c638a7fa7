@@ -1,0 +1,5 @@
+package com.myTest.test.util;
+
+public class FileUploadUtil {
+
+}

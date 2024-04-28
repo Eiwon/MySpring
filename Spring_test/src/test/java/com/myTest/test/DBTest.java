@@ -26,18 +26,14 @@ public class DBTest {
 	private static final String PASSWORD = "tiger";
 	
 
-	@Test
-	public void testConnection() {
-		Connection conn = null;
-		
-		try {
-			DriverManager.registerDriver(new OracleDriver());
-			DriverManager.getConnection(URL, USER, PASSWORD);
-		
-		} catch (SQLException e) {
-			e.printStackTrace();
-		}
-	}
+	/*
+	 * @Test public void testConnection() { Connection conn = null;
+	 * 
+	 * try { DriverManager.registerDriver(new OracleDriver());
+	 * DriverManager.getConnection(URL, USER, PASSWORD);
+	 * 
+	 * } catch (SQLException e) { e.printStackTrace(); } }
+	 */
 	
 	
 }

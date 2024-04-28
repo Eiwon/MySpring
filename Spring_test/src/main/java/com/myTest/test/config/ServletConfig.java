@@ -21,7 +21,7 @@ import org.springframework.web.servlet.view.InternalResourceViewResolver;
 
 @Configuration
 @EnableWebMvc
-@ComponentScan(basePackages = {"com.myTest.test"})
+@ComponentScan(basePackages = {"com.myTest.test", "com.myTest.test.controller"})
 public class ServletConfig implements WebMvcConfigurer{
 
 	@Override

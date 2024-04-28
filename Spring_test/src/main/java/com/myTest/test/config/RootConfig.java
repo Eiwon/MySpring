@@ -18,8 +18,8 @@ public class RootConfig {
 		HikariConfig config = new HikariConfig();
 		config.setDriverClassName("oracle.jdbc.OracleDriver"); // jdbc 드라이버 정보
 		config.setJdbcUrl("jdbc:oracle:thin:@localhost:1521:xe"); // DB 연결 url
-		config.setUsername("STUDY");
-		config.setPassword("1234");
+		config.setUsername("scott");
+		config.setPassword("tiger");
 		
 		config.setMaximumPoolSize(10); // 최대 풀 크기
 		config.setConnectionTimeout(30000); // connection 타임 아웃 설정
